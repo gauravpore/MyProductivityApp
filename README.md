@@ -84,19 +84,16 @@ We can use following [Amazon Web Services](https://aws.amazon.com/) to deploy ou
 
 ## 🔹Screenshots:
  #### Login page:
-![alt tag](https://user-images.githubusercontent.com/67472558/119008714-09849a80-b9b0-11eb-9448-b1ae2fac9496.JPG "Command Line Interaction")
+![alt tag](https://github.com/gauravpore/MyProductivityApp/blob/finalApp/Snips/login.png "login page")
 
 #### 🔸Applucation UI:
-![alt tag](https://user-images.githubusercontent.com/67472558/119008708-08536d80-b9b0-11eb-8a67-0fe087c9d801.JPG "Chrome Extension")
-
-#### 🔸User Registration:
-![alt tag](https://user-images.githubusercontent.com/67472558/119255658-9dd24580-bbda-11eb-86ed-6fe5a385e43e.png "Rasa x")
+![alt tag](https://github.com/gauravpore/MyProductivityApp/blob/finalApp/Snips/AppUI.png "App UI")
 
 #### 🔸Description:
-![alt tag](https://user-images.githubusercontent.com/67472558/119008719-0ab5c780-b9b0-11eb-8d75-4fc0ecd0c7e0.JPG "Rasa x")
+![alt tag](https://github.com/gauravpore/MyProductivityApp/blob/finalApp/Snips/description.png "description")
 
 #### 🔸API:
-![alt tag](https://user-images.githubusercontent.com/67472558/119017327-84ea4a00-b9b8-11eb-8e33-07faabc91535.png "Form")
+![alt tag](https://github.com/gauravpore/MyProductivityApp/blob/finalApp/Snips/REST.png  "REST API")
 
         
 
