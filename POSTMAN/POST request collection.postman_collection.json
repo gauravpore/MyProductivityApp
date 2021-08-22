@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "d7c61281-83bc-46a1-8965-5222944adcf0",
+		"name": "POST request collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Exporting POSTMAN collections\",\r\n    \"completed\": true\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/task-create/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"task-create",
+						""
+					]
+				},
+				"description": "Demonstrating working of POST request."
+			},
+			"response": []
+		}
+	]
+}
