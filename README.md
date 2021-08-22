@@ -59,7 +59,7 @@ py manage.py runserver
 - Refer [this](https://docs.djangoproject.com/en/3.2/) to know more about important commands.
 
 ## 🔹Application Back-end:
-- I have developed the APIs to perform CRUD operations using Django REST Framework. You can find the source files on ['initial']() branch. Refer [this](https://www.section.io/engineering-education/django-crud-api/) article to get started with same.
+- I have developed the APIs to perform CRUD operations using Django REST Framework. You can find the source files on [initial](https://github.com/gauravpore/MyProductivityApp/tree/initial) branch. Refer [this](https://www.section.io/engineering-education/django-crud-api/) article to get started with same.
 - The postman collections can be found [here](). Refer [this](https://learning.postman.com/docs/getting-started/introduction/) to get started with Postman.
 - The final application uses Class-based Views as it offers execellent default views like Login/Logout view, redirect view, etc, which results in faster development process & more importantly saves time. Refer [this](https://docs.djangoproject.com/en/3.1/ref/class-based-views/) for more understanding.
 - Django provides in-built functionality for User-Authentication and User-Registration form. Refer [this](https://docs.djangoproject.com/en/3.2/topics/auth/) to implement User Auth.
@@ -83,10 +83,10 @@ We can use following [Amazon Web Services](https://aws.amazon.com/) to deploy ou
 - [Deployment steps article](https://help.pythonanywhere.com/pages/DeployExistingDjangoProject/)
 
 ## 🔹Screenshots:
- #### Login page:
+ #### 🔸Login page:
 ![alt tag](https://github.com/gauravpore/MyProductivityApp/blob/finalApp/Snips/login.png "login page")
 
-#### 🔸Applucation UI:
+#### 🔸Application UI:
 ![alt tag](https://github.com/gauravpore/MyProductivityApp/blob/finalApp/Snips/AppUI.png "App UI")
 
 #### 🔸Description:
