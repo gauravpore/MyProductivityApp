@@ -1,4 +1,5 @@
 # 🔹MyProductivityApp
+### 📌Click [here](https://drive.google.com/file/d/1NkTVstCDgjh42h6_RkSA0aYnZOIQudFL/view?usp=sharing) to watch the demo of the project.
 ## 🔸Overview:
 A to-do list app lets you write, organize, and prioritize your tasks more efficiently. They also let you to manage, priortize and set deadlines for your tasks, hence resulting in more productivity. This repository contains all neccesary files for the MyProductivity App which is basically a Django Application built with APIs (Class-based views), to enable CRUD operations and basic HTML/CSS for client-side (frontend) User interface. Additionaly this application has User-Authencation system to save user-specific tasks. Go through the whole read.md (documentation) to undersatnd the working architecture and other features more clearly.
 
@@ -81,5 +82,22 @@ We can use following [Amazon Web Services](https://aws.amazon.com/) to deploy ou
 - [User-Authentication django docs](https://docs.djangoproject.com/en/3.2/topics/auth/)
 - [Deployment steps article](https://help.pythonanywhere.com/pages/DeployExistingDjangoProject/)
 
+## 🔹Screenshots:
+ #### Login page:
+![alt tag](https://user-images.githubusercontent.com/67472558/119008714-09849a80-b9b0-11eb-9448-b1ae2fac9496.JPG "Command Line Interaction")
+
+#### 🔸Applucation UI:
+![alt tag](https://user-images.githubusercontent.com/67472558/119008708-08536d80-b9b0-11eb-8a67-0fe087c9d801.JPG "Chrome Extension")
+
+#### 🔸User Registration:
+![alt tag](https://user-images.githubusercontent.com/67472558/119255658-9dd24580-bbda-11eb-86ed-6fe5a385e43e.png "Rasa x")
+
+#### 🔸Description:
+![alt tag](https://user-images.githubusercontent.com/67472558/119008719-0ab5c780-b9b0-11eb-8d75-4fc0ecd0c7e0.JPG "Rasa x")
+
+#### 🔸API:
+![alt tag](https://user-images.githubusercontent.com/67472558/119017327-84ea4a00-b9b8-11eb-8e33-07faabc91535.png "Form")
+
+        
 
 
