@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "d3579a94-eb9e-4f1a-88dc-07769eaa7040",
+		"name": "PUT request collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PUT request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Drinking water (stay hydrated)\",\r\n    \"completed\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/task-update/13/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"task-update",
+						"13",
+						""
+					]
+				},
+				"description": "Demonstrating working of PUT request."
+			},
+			"response": []
+		}
+	]
+}

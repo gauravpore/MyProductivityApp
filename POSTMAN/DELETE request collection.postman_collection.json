@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "95c8cfe2-3cb0-4904-8204-fa5e8efc879f",
+		"name": "DELETE request collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Delete request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/task-delete/11/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"task-delete",
+						"11",
+						""
+					]
+				},
+				"description": "Demonstrating working of DELETE request."
+			},
+			"response": []
+		}
+	]
+}
