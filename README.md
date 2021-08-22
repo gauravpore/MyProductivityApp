@@ -65,7 +65,7 @@ py manage.py runserver
 
 ## 🔹Deployment Guide:
 ### ☁️ PythonAnywhere:
-[Pythonanywhere](https://www.pythonanywhere.com/) is a cloud platform, that offers free web-hosting for Python-Django Apps. Follow [this][https://help.pythonanywhere.com/pages/DeployExistingDjangoProject/] article to host the application with just few steps.
+[Pythonanywhere](https://www.pythonanywhere.com/) is a cloud platform, that offers free web-hosting for Python-Django Apps. Follow [this](https://help.pythonanywhere.com/pages/DeployExistingDjangoProject/) article to host the application with just few steps.
 ### <em> 📌NOTE: MyProductivityApp will be deployed soon on PythonAnywhere platform. </em>
 ### ☁️ AWS:
 We can use following [Amazon Web Services](https://aws.amazon.com/) to deploy our application rapidly:
