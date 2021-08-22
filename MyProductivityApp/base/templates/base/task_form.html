@@ -1,0 +1,25 @@
+{% extends 'base/main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="header-bar">
+    <a href="{% url 'tasks' %}">&#8592; Back</a>
+</div>
+
+
+<div class="card-body" style="background-color: #2A3457;">
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{form.as_p}}
+        <div>
+            <input type="date" id="duedate" class="taskDate" name="duedate">
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div>
+            <input class="button" type="submit" value="Submit">
+        </div>
+    </form>
+</div>
+
+
+{% endblock content %}
