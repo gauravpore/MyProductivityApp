@@ -6,7 +6,7 @@ A to-do list app lets you write, organize, and prioritize your tasks more effici
 ## 🔸**Concepts:**
 - Back-end Development
 - API Development
-- Djang Development
+- Django Development
 - CRUD Operations
 - SDLC
 
