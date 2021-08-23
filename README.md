@@ -1,4 +1,6 @@
 # 🔹MyProductivityApp 📝
+## 🌐 Deployed App Link --> [https://myproductivityapp.pythonanywhere.com/](https://myproductivityapp.pythonanywhere.com/)
+
 ### 📌Click [here](https://drive.google.com/file/d/1BDWls86QpW5rNrthh4ia8zS7x8IwDKgR/view?usp=sharing) to watch the demo of the project.
 ## 🔸Overview:
 A to-do list app lets you write, organize, and prioritize your tasks more efficiently. They also let you to manage, priortize and set deadlines for your tasks, hence resulting in more productivity. This repository contains all necessary files for the **MyProductivity App**, which is basically a Django Application built with APIs (Class-based views), to enable CRUD operations and basic HTML/CSS for client-side (frontend) User interface. Additionaly this application has User-Authencation system to save user-specific tasks. Go through the whole read.md (documentation) to understand the working architecture and other features more clearly.
@@ -65,6 +67,30 @@ py manage.py runserver
 - Django provides in-built functionality for User-Authentication and User-Registration form. Refer [this](https://docs.djangoproject.com/en/3.2/topics/auth/) to implement User Auth.
 
 ## 🔹Deployment Guide:
+- To check django project for deployment:
+```
+py manage.py check --deploy
+```
+Do the following changes in [settings.py](https://github.com/gauravpore/MyProductivityApp/blob/finalApp/MyProductivityApp/todo_list/settings.py) to get started with deployment and also check for any issues prior.
+Add the following code snippet:
+```
+from django.core.management.utils import get_random_secret_key
+```
+```
+SECRET_KEY = get_random_secret_key()
+```
+```
+ALLOWED_HOSTS = ['myproductivityapp.pythonanywhere.com', '127.0.0.1']
+```
+```
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True 
+SECURE_HSTS_SECONDS = 31536000
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True
+```
+
 ### ☁️ PythonAnywhere:
 [Pythonanywhere](https://www.pythonanywhere.com/) is a cloud platform, that offers free web-hosting for Python-Django Apps. Follow [this](https://help.pythonanywhere.com/pages/DeployExistingDjangoProject/) article to host the application with just few steps.
 ### <em> 📌NOTE: MyProductivityApp will be deployed soon on PythonAnywhere platform. </em>
