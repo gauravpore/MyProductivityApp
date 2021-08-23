@@ -46,15 +46,15 @@ A to-do list app lets you write, organize, and prioritize your tasks more effici
 ```
 > **🔸Installation Guide:**
 - To install django:
-```
+```python
 pip install django
 ```
-- T0 install Django REST Framework:
-```
+- To install Django REST Framework:
+```python
 pip install djangorestframework
 ```
 - To run the application on local Port 8000:
-```
+```python
 py manage.py runserver
 ```
 
@@ -68,21 +68,25 @@ py manage.py runserver
 
 ## 🔹Deployment Guide:
 - To check django project for deployment:
-```
+```python
 py manage.py check --deploy
 ```
 Do the following changes in [settings.py](https://github.com/gauravpore/MyProductivityApp/blob/finalApp/MyProductivityApp/todo_list/settings.py) to get started with deployment and also check for any issues prior.
 Add the following code snippet:
-```
+```python
 from django.core.management.utils import get_random_secret_key
 ```
-```
+```python
 SECRET_KEY = get_random_secret_key()
 ```
+```python
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
 ```
+```python
 ALLOWED_HOSTS = ['myproductivityapp.pythonanywhere.com', '127.0.0.1']
 ```
-```
+```python
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = True 
