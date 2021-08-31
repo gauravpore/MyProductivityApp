@@ -3,7 +3,7 @@
 
 ### 📌Click [here](https://drive.google.com/file/d/1BDWls86QpW5rNrthh4ia8zS7x8IwDKgR/view?usp=sharing) to watch the demo of the project.
 ## 🔸Overview:
-A to-do list app lets you write, organize, and prioritize your tasks more efficiently. They also let you to manage, priortize and set deadlines for your tasks, hence resulting in more productivity. This repository contains all necessary files for the **MyProductivity App**, which is basically a Django Application built with APIs (Class-based views), to enable CRUD operations and basic HTML/CSS for client-side (frontend) User interface. Additionaly this application has User-Authencation system to save user-specific tasks. Go through the whole read.md (documentation) to understand the working architecture and other features more clearly.
+A to-do list app lets you write, organize, and prioritize your tasks more efficiently. They also let you to manage, priortize and set deadlines for your tasks, hence resulting in more productivity. This repository contains all necessary files for the **MyProductivity App**, which is basically a Django Application built with APIs (Class-based views), to enable CRUD operations and basic HTML/CSS for client-side (frontend) User interface. Additional this application has User-Authentication system to save user-specific tasks. Go through the whole read.md (documentation) to understand the working architecture and other features more clearly.
 
 ## 🔸**Concepts:**
 - API Development
